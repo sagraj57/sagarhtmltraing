@@ -61,13 +61,13 @@ article {
    h3 {
     color: #8C1018;
     font-size: 2em;
-}
+    }
 artilce h4 {
     color: #8C1018;
 }
 article a {
     color:#314052;
-    
+} 
 }
 @media print {
     header {
@@ -82,4 +82,22 @@ header h1 {
 header h2 {
     display: none;
 }
+}
+#carousel > figure > img {
+display: none;
+margin: 0px auto;
+}
+#carousel > figure.visible > img {
+display: block;    
+position: relative;
+overflow: hidden;  
+}
+#carousel > figure > figcaption {
+display: none;
+}
+#carousel > figure.visible > figcaption {
+display: block;    
+text-align: center;  
+font-weight: bold;
+font-size: 1.5em;
 }
