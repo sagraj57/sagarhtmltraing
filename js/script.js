@@ -1,6 +1,6 @@
 var slideInterval = 3500;
 function getFigures() {
-    return document .getElementById('carousel').getElementsByTagName('figure');
+    return document.getElementById('carousel').getElementsByTagName('figure');
 }
 function moveForward() {
     var pointer;
